@@ -13,6 +13,11 @@
 		D04B64E523CCAAD0008804CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04B64E323CCAAD0008804CF /* Main.storyboard */; };
 		D04B64E723CCAAD1008804CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04B64E623CCAAD1008804CF /* Assets.xcassets */; };
 		D04B64EA23CCAAD1008804CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04B64E823CCAAD1008804CF /* LaunchScreen.storyboard */; };
+		D04B64F223CCACA6008804CF /* MessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D04B64F123CCACA6008804CF /* MessageView.xib */; };
+		D04B64F423CCB356008804CF /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B64F323CCB356008804CF /* MessageView.swift */; };
+		D04B64F623CCB639008804CF /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B64F523CCB639008804CF /* UIView+Nib.swift */; };
+		D04B64F823CCB67D008804CF /* NibWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B64F723CCB67D008804CF /* NibWrapperView.swift */; };
+		D0D052DD23CCC66B0026E6EB /* NibWrapped.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D052DC23CCC66B0026E6EB /* NibWrapped.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		D04B64E623CCAAD1008804CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D04B64E923CCAAD1008804CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D04B64EB23CCAAD1008804CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D04B64F123CCACA6008804CF /* MessageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageView.xib; sourceTree = "<group>"; };
+		D04B64F323CCB356008804CF /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		D04B64F523CCB639008804CF /* UIView+Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		D04B64F723CCB67D008804CF /* NibWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibWrapperView.swift; sourceTree = "<group>"; };
+		D0D052DC23CCC66B0026E6EB /* NibWrapped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibWrapped.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				D04B64E623CCAAD1008804CF /* Assets.xcassets */,
 				D04B64E823CCAAD1008804CF /* LaunchScreen.storyboard */,
 				D04B64EB23CCAAD1008804CF /* Info.plist */,
+				D04B64F123CCACA6008804CF /* MessageView.xib */,
+				D04B64F323CCB356008804CF /* MessageView.swift */,
+				D04B64F523CCB639008804CF /* UIView+Nib.swift */,
+				D04B64F723CCB67D008804CF /* NibWrapperView.swift */,
+				D0D052DC23CCC66B0026E6EB /* NibWrapped.swift */,
 			);
 			path = ReusableXibViews;
 			sourceTree = "<group>";
@@ -125,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04B64F223CCACA6008804CF /* MessageView.xib in Resources */,
 				D04B64EA23CCAAD1008804CF /* LaunchScreen.storyboard in Resources */,
 				D04B64E723CCAAD1008804CF /* Assets.xcassets in Resources */,
 				D04B64E523CCAAD0008804CF /* Main.storyboard in Resources */,
@@ -138,8 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D052DD23CCC66B0026E6EB /* NibWrapped.swift in Sources */,
+				D04B64F423CCB356008804CF /* MessageView.swift in Sources */,
 				D04B64E223CCAAD0008804CF /* ViewController.swift in Sources */,
+				D04B64F823CCB67D008804CF /* NibWrapperView.swift in Sources */,
 				D04B64DE23CCAAD0008804CF /* AppDelegate.swift in Sources */,
+				D04B64F623CCB639008804CF /* UIView+Nib.swift in Sources */,
 				D04B64E023CCAAD0008804CF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

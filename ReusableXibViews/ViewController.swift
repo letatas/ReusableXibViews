@@ -9,10 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @NibWrapped(MessageView.self)
+    @IBOutlet var messageView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        _messageView.message = "That's awesome !!!"
+        _messageView.symbol = "heart"
     }
 
 
